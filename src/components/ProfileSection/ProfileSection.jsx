@@ -38,8 +38,8 @@ const ProfileSection = () => {
   };
 
   return (
-    <div className="card-wrapper profile-wrapper">
-      <aside className="card-sidebar">
+    <div className="profile-section">
+      <aside className="profile-sidebar">
         <div className="sidebar-icon">?</div>
         <div className="sidebar-icon sidebar-icon-grid" aria-hidden="true">
           <span />
@@ -54,7 +54,7 @@ const ProfileSection = () => {
         </div>
       </aside>
 
-      <div className="profile-section">
+      <div className="profile-content">
         <div className="profile-header">
           <div className="tab-buttons">
             <button

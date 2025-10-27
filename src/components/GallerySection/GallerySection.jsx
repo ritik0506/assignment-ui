@@ -24,8 +24,8 @@ const GallerySection = () => {
   };
 
   return (
-    <div className="card-wrapper gallery-wrapper">
-      <aside className="card-sidebar">
+    <div className="gallery-section">
+      <aside className="gallery-sidebar">
         <div className="sidebar-icon">?</div>
         <div className="sidebar-icon sidebar-icon-grid" aria-hidden="true">
           <span />
@@ -40,7 +40,7 @@ const GallerySection = () => {
         </div>
       </aside>
 
-      <div className="gallery-section">
+      <div className="gallery-content">
         <div className="gallery-header">
           <div className="gallery-title">Gallery</div>
           <div className="gallery-actions">
